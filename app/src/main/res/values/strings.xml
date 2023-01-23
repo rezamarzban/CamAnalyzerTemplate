@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TFLiteObjectDetection</string>
+    <string name="title_activity_camera">Detect Objects</string>
+    <string name="button_ml_kit">Use ML Kit</string>
+    <string name="button_custom_model">Use Custom Model</string>
+    <string name="default_text"/>
+    <string name="no_detection">Nothing detected</string>
+</resources>

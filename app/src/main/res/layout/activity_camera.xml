@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/fullscreenBackgroundColor"
+        android:theme="@style/ThemeOverlay.AndroidInferenceTest.FullscreenContainer"
+        app:layout_constraintEnd_toStartOf="@+id/text_prediction"
+        app:layout_constraintStart_toStartOf="@+id/text_prediction"
+        tools:context="com.example.tfliteobjectdetection.CameraActivity">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/view_finder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-65dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
