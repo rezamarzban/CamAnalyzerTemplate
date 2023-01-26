@@ -13,3 +13,6 @@ Line: 84
 ```
 
 Note: "ML Model Binding" is available for some tflite models only, Google it for more info.
+
+Example usage of this repository:
+https://github.com/marzban2030/TFLiteObjectDetection
