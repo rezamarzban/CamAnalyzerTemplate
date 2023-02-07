@@ -1,5 +1,5 @@
-# pure-androidCamAnalyzer
-Pure Android Camera Analyzer to be used in another projects
+# CamAnalyzerTemplate
+Android Camera Analyzer template to be used in another projects
 
 Most simple and fewest codes ...
 
